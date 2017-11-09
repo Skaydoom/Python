@@ -138,7 +138,7 @@ def new_game():
     if in_game:
         if player_hand.get_value() > dealer_hand.get_value():
             print ("Ты выйграл")
-        elif player_hand.get_value() > dealer_hand.get_value():
+        elif player_hand.get_value() == dealer_hand.get_value():
             print("Ничья")
         else:
             print ("Диллер выйграл")
